@@ -1,2 +1,2 @@
 # logs-to-discord
-Send selected logtails to a Discord Webhook
+A Docker Container to send selected logtails to a Discord Webhook
