@@ -34,6 +34,13 @@ This container is designed to run as a non-root user
  - - - ###### e.g. LOG_FILE: "/var/log/sample.log,/var/log/sample log file.txt,/var/log/my container/logfile.log"
  - - - ###### e.g. LOG_FILE: "/var/log/sample log file.txt"
  - - - ###### e.g. LOG_FILE: /var/log/sample.log
+ - - - #### If multiple files are used it will show the name each time it is different from the last message
+```
+==> /var/log/sample.log <==
+2023-03-20 @ 00:37:00
+==> /var/log/cron.log <==
+crond: wakeup dt=60
+```
 ### DISCORD_WEBHOOK:    
  - - - #### To send notifications to a channel go into the channel & `Edit Channel`
  - - - #### Select `Integrations`
