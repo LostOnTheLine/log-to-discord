@@ -63,4 +63,4 @@ crond: wakeup dt=60
 -----
 -----
 
-As of now I have not been able to get the `image: ghcr.io/LostOnTheLine/logs-to-discord:latest` to work. I'm not sure exactly what I need to do to make that work, but I will liekly push it to DockerHub & I will update it when I do. For now you will have to build it yourself
+As of now I have not been able to get the `image: ghcr.io/LostOnTheLine/logs-to-discord:latest` to work. I'm not sure exactly what I need to do to make that work, but I have pushed it to DockerHub & that seems to be working.
