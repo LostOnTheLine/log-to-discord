@@ -27,6 +27,7 @@ services:
 ```
 
 This container is designed to run as a non-root user
+I have a label for Watchtower, that can obviously be removed or edited to your own needs. 
 
 ## ENVIRONMENT VARIABLES
 
