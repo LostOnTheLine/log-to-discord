@@ -54,7 +54,7 @@ crond: wakeup dt=60
  - ###### If the webhook URL is not reachable the container will show as `Unhealthy`
 ### FILTER_BY_WORD:    
  - - - #### If you only want to send lines that have the word "error" or "taco" in them you can specify that here. 
- - - - #### If nothing is set it will include every new line add to the file after the container started.
+ - - - #### If nothing is set it will include every new line added to the file after the container started.
  - - - ###### e.g. FILTER_BY_WORD: "error"
  - - - ###### e.g. FILTER_BY_WORD: "2023"
  - - - ###### e.g. FILTER_BY_WORD: "complete"
