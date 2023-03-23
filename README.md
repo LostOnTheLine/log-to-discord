@@ -1,13 +1,13 @@
-# logs-to-discord
+# log-to-discord
 A Docker Container to send selected logtails to a Discord Webhook
 
 ```yaml
 version: '3'
 services:
-  logs-to-discord:
-    #image: ghcr.io/LostOnTheLine/logs-to-discord:latest
-    image: lostontheline/logs-to-discord:latest
-    container_name: logs-to-discord
+  log-to-discord:
+    #image: ghcr.io/LostOnTheLine/log-to-discord:latest
+    image: lostontheline/log-to-discord:latest
+    container_name: log-to-discord
     user: 1000:1000
     environment:
       PUID: 1000 #optional
