@@ -65,4 +65,5 @@ crond: wakeup dt=60
 -----
 -----
 
-As of now I have not been able to get the `image: ghcr.io/lostontheline/log-to-discord:latest` to work. I'm not sure exactly what I need to do to make that work, but I have pushed it to DockerHub & that seems to be working.
+I have included the `image:` calls for both Docker Hub & ***(commented out)*** for this GitHub Package. 
+As it looks nicer, sorts nicer, & is easier to upload & manage, the Docker Hub one is my preferred method & will always get updated 1st, but I'll try to make sure this one happens right after & any changes are updated here. 
