@@ -5,7 +5,7 @@ A Docker Container to send selected logtails to a Discord Webhook
 version: '3'
 services:
   log-to-discord:
-    #image: ghcr.io/LostOnTheLine/log-to-discord:latest
+    #image: ghcr.io/lostontheline/log-to-discord:latest
     image: lostontheline/log-to-discord:latest
     container_name: log-to-discord
     user: 1000:1000
@@ -65,4 +65,4 @@ crond: wakeup dt=60
 -----
 -----
 
-As of now I have not been able to get the `image: ghcr.io/LostOnTheLine/logs-to-discord:latest` to work. I'm not sure exactly what I need to do to make that work, but I have pushed it to DockerHub & that seems to be working.
+As of now I have not been able to get the `image: ghcr.io/lostontheline/log-to-discord:latest` to work. I'm not sure exactly what I need to do to make that work, but I have pushed it to DockerHub & that seems to be working.
