@@ -23,7 +23,8 @@ services:
     #security_opt:
     #  - no-new-privileges:true
     labels:
-      - "com.centurylinklabs.watchtower.scope=github"
+      - "com.centurylinklabs.watchtower.scope=dockerhub"
+    #  - "com.centurylinklabs.watchtower.scope=github"
 ```
 
 This container is designed to run as a non-root user
