@@ -1,6 +1,3 @@
-[![release](https://github.com/LostOnTheLine/log-to-discord/actions/workflows/release.yaml/badge.svg)](https://github.com/LostOnTheLine/log-to-discord/actions/workflows/release.yaml)
-[![Version](https://img.shields.io/github/v/release/LostOnTheLine/log-to-discord?display_name=tag)]()
-
 # log-to-discord
 A Docker Container to send selected logtails to a Discord Webhook
 
